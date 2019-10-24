@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="30dp"
+    android:layout_margin="20dp"
     android:orientation="vertical"
     tools:context=".CadastraActivity">
 
@@ -18,6 +18,7 @@
         android:textSize="25dp"></TextView>
 
     <LinearLayout
+        android:layout_marginTop="20dp"
         android:id="@+id/lnLayoutPessoas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,10 +32,10 @@
             android:textSize="20dp"></TextView>
 
         <EditText
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"></EditText>
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,6 +44,7 @@
             android:textSize="20dp"></TextView>
 
         <EditText
+            android:inputType="date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"></EditText>
@@ -63,6 +65,7 @@
             android:textSize="20dp"></TextView>
 
         <EditText
+            android:inputType="phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"></EditText>
@@ -75,6 +78,7 @@
             android:textSize="20dp"></TextView>
 
         <EditText
+            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"></EditText>
@@ -95,6 +99,7 @@
             android:textSize="20dp"></TextView>
 
         <EditText
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"></EditText>
@@ -107,6 +112,7 @@
             android:textSize="20dp"></TextView>
 
         <EditText
+            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"></EditText>
@@ -115,13 +121,15 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
 
         <Button
-            android:layout_width="130dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Cadastrar"></Button>
+            android:layout_gravity="center"
+            android:text="Cadastrar"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -40,13 +40,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Cadastrar"
-            android:textSize="15dp"></Button>
+            android:textSize="15dp"
+            android:onClick=""></Button>
         <Button
             android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:text="Listar"
+            android:text="Listagem"
             android:textSize="15dp"></Button>
         <Button
             android:layout_width="wrap_content"
