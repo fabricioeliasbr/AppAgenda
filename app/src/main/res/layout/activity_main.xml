@@ -41,7 +41,8 @@
             android:layout_gravity="center"
             android:text="Cadastrar"
             android:textSize="15dp"
-            android:id="@+id/btnCad"></Button>
+            android:id="@+id/btnCad"
+            android:onClick="abrirCadastro"></Button>
         <Button
             android:layout_width="170dp"
             android:layout_height="wrap_content"
@@ -49,7 +50,8 @@
             android:layout_marginTop="20dp"
             android:text="Listagem"
             android:textSize="15dp"
-            android:id="@+id/btnLista"></Button>
+            android:id="@+id/btnLista"
+            android:onClick="abrirLista"></Button>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
